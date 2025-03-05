@@ -84,7 +84,7 @@ class testlistview extends StatelessWidget {
       create: (context) => justdata(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: awal(),
+        home: sementara(),
         routes: {
           afterawal.nameroute: (ctx) => afterawal(),
         },
@@ -122,6 +122,28 @@ class testlistview extends StatelessWidget {
         //     children: Mylist,
         //   ),
         // ),
+      ),
+    );
+  }
+}
+
+class sementara extends StatelessWidget{
+  // final List<Text> mytext = List.generate(
+  //   10, 
+  //   (context) {
+
+  //     },
+  //   );
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Sementara"),
+      ),
+      body: ListView(
+        children: [
+
+        ],
       ),
     );
   }

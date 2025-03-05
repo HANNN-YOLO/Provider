@@ -19,7 +19,7 @@ class justdata with ChangeNotifier {
   );
 
   List<data> get inidata {
-    return [..._inidata];
+    return _inidata;
   }
 
   // justdata findByid(String dataku){
